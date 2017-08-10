@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffccbc"
+    android:orientation="vertical"
+    tools:context="com.villip.ukrainiannutcompany.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/nameCompanyFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Ukrainian Nut Company"
+            android:textSize="30dp"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/bakaleyaFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="60dp"
+            android:text="БАКАЛЕЯ"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/orehiFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="60dp"
+            android:text="ОРЕХИ"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/pripraviFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="60dp"
+            android:text="ПРИПРАВЫ"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/snekiFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="60dp"
+            android:text="СНЕКИ"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/suhofruktiFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="60dp"
+            android:text="СУХОФРУКТЫ"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/cukatiFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="60dp"
+            android:text="ЦУКАТЫ"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/novinkiFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="60dp"
+            android:text="НОВИНКИ"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"/>
+
+    </FrameLayout>
+</LinearLayout>
+

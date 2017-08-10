@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "265826495902",
+    "firebase_url": "https://ukrainiannutcompany.firebaseio.com",
+    "project_id": "ukrainiannutcompany",
+    "storage_bucket": "ukrainiannutcompany.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265826495902:android:2776c9c3c893419f",
+        "android_client_info": {
+          "package_name": "com.villip.ukrainiannutcompany"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265826495902-m0c205hs9mfs0ehdi7rclib2gpa7lc1c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.villip.ukrainiannutcompany",
+            "certificate_hash": "f7e99e7a032c489055698e67c97e9a4cff4306be"
+          }
+        },
+        {
+          "client_id": "265826495902-t6l0hliqe6udchkllragmsitknqa3anm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdaUVcjIWmaEiFoDWmvVnumQhG-Kh7wvM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265826495902-t6l0hliqe6udchkllragmsitknqa3anm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
